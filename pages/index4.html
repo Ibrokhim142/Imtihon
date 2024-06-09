@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create New Post</title>
+    <link href="https://fonts.googleapis.com/css2?family=Jomolhari&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style4.css">
+</head>
+<body>
+    <div class="container">
+        <div class="blocks">
+            <div class="dashboard">
+              <div>
+                <h2>Dashboard</h2>
+                <div class="dashboard__author">
+                    <h4>Ibrokhim Jalalov</h4>
+                   <div class="hero__text__tittles">
+                    <div class="hero__text__tittle">
+                        <p>Author</p> 
+                    <img src="../img/Ellipse 1.png" alt="">
+                    </div>
+                   </div>
+                </div>
+                <a href="#"><button class="dashboard__btn">Create Post</button></a>
+              </div>
+              <a href="..//index.html" class="dashboard__link">Sign out</a>
+            </div>
+            <div class="dashboard__tabbles">
+                <h2>Create New Post</h2>
+                <hr>
+                <div class="dashboard__tittle">
+                    <div class="dashboard__tittle__input">
+                        <h4>Post title</h4>
+                        <input type="text" id="postTitle">
+                    </div>
+                </div>
+                <div class="dashboard__tittles">
+                    <div class="dashboard__input_tittle">
+                        <h4>Post image</h4>
+                        <input type="text" id="postImage">
+                    </div>
+                    <div class="dashboard__tittles__input">
+                        <h4>Post tag</h4>
+                        <div class="dashboard__input__tittles">
+                            <input class="dashboard__input" type="text" id="postTag">
+                            <input class="dashboard__inpute" type="checkbox" id="postTagCheckbox">
+                        </div>
+                    </div>
+                </div>
+                <div class="dashboard__text">
+                    <h4>Post description</h4>
+                    <textarea id="postDescription" cols="30" rows="10"></textarea>
+                </div>
+                <div class="dashboard__btn__tittle">
+                    <a href="..//index.html"><button class="dashboard__btns" id="createPostButton">Create Post</button></a>
+                </div>
+                <div id="result"></div>
+                <div id="loading" class="hidden">Loading...</div>
+            </div>
+        </div>
+    </div>
+    <script src="../script/app4.js"></script>
+</body>
+</html>
